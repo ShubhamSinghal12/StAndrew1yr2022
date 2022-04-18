@@ -1,8 +1,8 @@
-package Lec3;
+package Lec4;
 
 import java.util.Scanner;
 
-public class LoopsDemo {
+public class SumofN {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,9 +12,11 @@ public class LoopsDemo {
 		int sum = 0;
 		while(i<=n)
 		{
-			System.out.println(i);
+//			System.out.println(i);
+			sum = sum + i;
 			i = i+1;
 		}
+		System.out.println("Sum: "+sum);
 		System.out.println("Bye");
 
 	}
