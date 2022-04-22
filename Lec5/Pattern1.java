@@ -16,11 +16,17 @@ public class Pattern1 {
 			int cst = 1;
 			while(cst <= nst)
 			{
+				if(cst == 1 || cst == nst || row == 1 || row == n) {
 				System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
 				cst += 1;
 			}
 			
-			nst -= 1;
+//			nst -= 1;
 			System.out.println();
 			row += 1;
 		}
