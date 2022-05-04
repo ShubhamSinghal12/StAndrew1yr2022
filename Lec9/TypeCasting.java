@@ -6,7 +6,7 @@ public class TypeCasting {
 		// TODO Auto-generated method stub
 		
 		byte b = (byte)673;
-		System.out.println(b);
+		System.out.print(b);
 		short s = 10;
 		int i = 10;
 		long l = 10;
@@ -30,8 +30,6 @@ public class TypeCasting {
 		System.out.println(st);
 		
 		System.out.println(2+3+"Hello"+2+3);
-		
-		
 		
 		
 		
