@@ -29,24 +29,25 @@ public class WavePrint {
 		}
 	}
 	
-	public static void Vwave(int [][] arr)
+	public static void Vwave(int[][] arr)
 	{
-		for(int j = 0; i < arr.length; i++)
+		for(int j = 0 ; j < arr[0].length;j++)
 		{
-			if(i%2==0)
+			if(j%2 == 0)
 			{
-				for(int j = 0; j < arr[0].length;j++)
+				for(int i = 0; i < arr.length; i++)
 				{
 					System.out.print(arr[i][j]+" ");
 				}
 			}
 			else
 			{
-				for(int j = arr[0].length-1;j >= 0;j--)
+				for(int i = arr.length-1; i >= 0 ; i--)
 				{
-					System.out.print(arr[i][j] +" ");
+					System.out.print(arr[i][j]+" ");
 				}
 			}
+			System.out.println();
 		}
 	}
 
