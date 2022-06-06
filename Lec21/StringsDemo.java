@@ -19,19 +19,29 @@ public class StringsDemo {
 //		System.out.println(st.indexOf("ll"));
 //		System.out.println(st.lastIndexOf("ll"));
 		
-		String s1 = "Hello";
-		String s2 = "Hello";
-		String s3 = new String("Hello");
-		String s4 = new String("Hello");
+//		String s1 = "Hello";
+//		String s2 = "Hello";
+//		String s3 = new String("Hello");
+//		String s4 = new String("Hello");
+//		
+//		System.out.println(s1==s3);
+//		System.out.println(s3==s4);
+//		
+//		System.out.println(s1.replace('l', 'r'));
+//		System.out.println(s1);
+//		
+//		s1 = s1.concat(" Bye");
+//		System.out.println(s1);
 		
-		System.out.println(s1==s3);
-		System.out.println(s3==s4);
+		String s = "";
+		long start = System.currentTimeMillis();
+		for(int i = 1; i < 100000;i++)
+		{
+			s += "a";
+		}
+		long end = System.currentTimeMillis();
+		System.out.println(end-start);
 		
-		System.out.println(s1.replace('l', 'r'));
-		System.out.println(s1);
-		
-		s1 = s1.concat(" Bye");
-		System.out.println(s1);
 		
 		
 
